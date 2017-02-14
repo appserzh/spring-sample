@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
                 produces = MediaType.APPLICATION_JSON_VALUE)
 public class StringController {
 
-    @RequestMapping(path = "/say_hello_", method = RequestMethod.GET)
+    @RequestMapping(path = "/say_hello", method = RequestMethod.GET)
     public String sayHello() {
         return "say hello";
     }
